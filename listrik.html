@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Listrik &#8212; Elektromagnetik</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Magnet" href="magnet.html" />
+    <link rel="prev" title="Daftar Isi" href="content.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Elektromagnetik</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Pendahuluan
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="content.html">
+   Daftar Isi
+  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Listrik
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="magnet.html">
+     Magnet
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/listrik.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/imuttakin/buku"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/imuttakin/buku/issues/new?title=Issue%20on%20page%20%2Flistrik.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/imuttakin/buku/master?urlpath=tree/docs/listrik.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hukum-coulomb-dan-medan-listrik">
+   Hukum Coulomb dan medan listrik
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#potensial-listrik">
+   Potensial Listrik
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#beda-potensial">
+     Beda potensial
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="listrik">
+<h1>Listrik<a class="headerlink" href="#listrik" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="hukum-coulomb-dan-medan-listrik">
+<span id="coulombs-law"></span><h2>Hukum Coulomb dan medan listrik<a class="headerlink" href="#hukum-coulomb-dan-medan-listrik" title="Permalink to this headline">¶</a></h2>
+<p>Sebuah muatan diam <span class="math notranslate nohighlight">\(q_1\)</span> pada posisi <span class="math notranslate nohighlight">\(\mathbf{r_1}\)</span> menghasilkan suatu gaya pada sebuah muatan <span class="math notranslate nohighlight">\(q_2\)</span> pada <span class="math notranslate nohighlight">\(\mathbf{r_2}\)</span>. Hukum Coulomb menggambarkan interaksi listrik antara dua partikel bermuatan dalam hal gaya yang mereka kerahkan terhadap satu sama lain. Ini diberikan oleh</p>
+<div class="math notranslate nohighlight">
+\[\mathbf{F_{12}} = \frac{q_1 q_2}{4{\pi}{\epsilon_0}{r_{12}^3}} \mathbf{r_{12}}\]</div>
+<p>dimana <span class="math notranslate nohighlight">\(\mathbf{r_{12}} ≡ r_2 − r_1\)</span> dan <span class="math notranslate nohighlight">\(r_{12} = \mathbf{\left|r_{12}\right|}\)</span>.</p>
+<p>Medan listrik, <span class="math notranslate nohighlight">\(\mathbf{E(r)}\)</span>, dari sebuah muatan mengilustrasikan bagaimana gaya listrik yang dikerahkan oleh muatan tersebut terhadap muatan lain bervariasi pada ruang. Medan pada suatu titik <span class="math notranslate nohighlight">\( \mathbf{r}\)</span> oleh sebuah muatan, <span class="math notranslate nohighlight">\(q_1\)</span> yang selalu berada pada <span class="math notranslate nohighlight">\( \mathbf{r_1}\)</span> didefinisikan sebagai</p>
+<div class="math notranslate nohighlight">
+\[\mathbf{E(r)} = \frac{q_1}{4{\pi}{\epsilon_0}{\mathbf{\left|r - r_1\right|}^3}}\mathbf{\left[r - r_1\right]}\]</div>
+<p>Sekarang letakkan sebuah muatan, <span class="math notranslate nohighlight">\(q_2\)</span>, di dalam medan. Dengan menggunakan kedua definisi di atas kita dapat melihat bahwa gaya yang dikerahkan pada <span class="math notranslate nohighlight">\(q_2\)</span> memiliki hubungan terhadap medan listrik dengan</p>
+<div class="math notranslate nohighlight">
+\[\mathbf{F_{12}} = q_2 \mathbf{E(r)}\]</div>
+<p>Untuk suatu sistem terdiri dari <span class="math notranslate nohighlight">\(n\)</span> muatan, kita dapat menggunakan prinsip superposisi untuk menunjukkan bahwa medan listrik pada sistem tersebut adalah</p>
+<div class="math notranslate nohighlight">
+\[\mathbf{E} = \sum^{n}_{i = 1} \mathbf{E}_i\]</div>
+<p>Medan listrik oleh sebuah muatan titik positif pada pusat di plot sebagai berikut. Panjang panah adalah suatu indikasi dari kekuatan medan listrik pada titik tersebut.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="k">def</span> <span class="nf">E</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">):</span>
+    <span class="n">q</span><span class="o">=</span> <span class="mi">1</span> <span class="c1">#muatan dalam coulombs</span>
+    <span class="n">r1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span> <span class="c1">#muatan diletakkan pada pusat koordinat</span>
+    <span class="n">e0</span><span class="o">=</span> <span class="mf">8.85</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">12</span><span class="p">)</span> <span class="c1">#permittivitas free space</span>
+    <span class="n">mag</span><span class="o">=</span> <span class="p">(</span><span class="n">q</span> <span class="o">/</span> <span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span> <span class="n">e0</span><span class="p">))</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="p">((</span><span class="n">x</span> <span class="o">-</span> <span class="n">r1</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span> <span class="p">(</span><span class="n">y</span> <span class="o">-</span> <span class="n">r1</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span> <span class="c1">#kuat medan listrik</span>
+    <span class="n">ex</span><span class="o">=</span> <span class="n">mag</span> <span class="o">*</span> <span class="p">(</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arctan2</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)))</span>
+    <span class="n">ey</span><span class="o">=</span> <span class="n">mag</span> <span class="o">*</span> <span class="p">(</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arctan2</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)))</span>
+    
+    <span class="k">return</span> <span class="p">(</span><span class="n">ex</span><span class="p">,</span><span class="n">ey</span><span class="p">)</span>
+
+<span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span> <span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">y</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span> <span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">14</span><span class="p">)</span>
+
+<span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">meshgrid</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+
+<span class="n">ex</span><span class="p">,</span><span class="n">ey</span><span class="o">=</span><span class="n">E</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">quiver</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">ex</span><span class="p">,</span><span class="n">ey</span><span class="p">,</span> <span class="n">scale</span> <span class="o">=</span> <span class="mi">15000000000</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/listrik_2_0.png" src="_images/listrik_2_0.png" />
+</div>
+</div>
+</div>
+<div class="section" id="potensial-listrik">
+<span id="electric-potential"></span><h2>Potensial Listrik<a class="headerlink" href="#potensial-listrik" title="Permalink to this headline">¶</a></h2>
+<p>Pertimbangkan sebuah muatan <span class="math notranslate nohighlight">\(q\)</span> di dalam medan listrik dari muatan lain <span class="math notranslate nohighlight">\(Q\)</span>. Muatan <span class="math notranslate nohighlight">\(q\)</span> mengalami suatu gaya, <span class="math notranslate nohighlight">\(\mathbf{F}_Q\)</span>, diakibatkan oleh medan listrik. Lalu gerakkan <span class="math notranslate nohighlight">\(q\)</span> dari <span class="math notranslate nohighlight">\(A \rightarrow B\)</span> pada kecepatan konstan. Suatu gaya, <span class="math notranslate nohighlight">\(\mathbf{F}_{ext}\)</span> harus diterapkan untuk menyamai <span class="math notranslate nohighlight">\(\mathbf{F}_Q\)</span>. Dengan demikian, dalam menggerakkan muatan tersebut gaya eksternal melakukan usaha. Bergerak pada kecepatan konstan</p>
+<div class="math notranslate nohighlight">
+\[\mathbf{F}_{ext} + \mathbf{F}_Q = 0\]</div>
+<p>maka usaha yang dilakukan oleh <span class="math notranslate nohighlight">\(\mathbf{F}_{ext}\)</span> pada <span class="math notranslate nohighlight">\(q\)</span> adalah</p>
+<div class="math notranslate nohighlight">
+\[dW = \mathbf{F}_{ext} \cdot d\boldsymbol{l} = - \mathbf{F}_{Q} \cdot d\boldsymbol{l}\]</div>
+<p>Sehingga usaha total yang dilakukan oleh <span class="math notranslate nohighlight">\(\mathbf{F}_{ext}\)</span> diperoleh dengan mengintegrasikan dari A ke B</p>
+<div class="math notranslate nohighlight">
+\[W = \int_{A}^{B} \mathbf{F}_{ext} \cdot d\boldsymbol{l} = - \int_{A}^{B} \mathbf{F}_{Q} \cdot d\boldsymbol{l}\]</div>
+<p>Usaha yang dilakukan, <span class="math notranslate nohighlight">\(W\)</span>, sebanding dengan perubahan energi potensial, <span class="math notranslate nohighlight">\(∆U\)</span>, maka</p>
+<div class="math notranslate nohighlight">
+\[∆U = - \mathbf{F}_{Q} \cdot d\boldsymbol{l}\]</div>
+<p>Menggunakan Hukum Coulomb dan melakukan integrasi kita dapatkan</p>
+<div class="math notranslate nohighlight">
+\[∆U_{AB} = \frac{q Q}{4{\pi}{\epsilon_0}}\left(\frac{1}{r_B} - \frac{1}{r_A}\right)\]</div>
+<p>sehingga perubahan energi potensial hanya bergantung pada pemisahan radial, r. Dengan demikian, <span class="math notranslate nohighlight">\(∆U_{AB}\)</span> adalah independen (tidak dipengaruhi) dari jalur, artinya bentuk jalur tidak berpengaruh pada perubahan energi potensial.</p>
+<div class="section" id="beda-potensial">
+<h3>Beda potensial<a class="headerlink" href="#beda-potensial" title="Permalink to this headline">¶</a></h3>
+<p>Beda potensial antara <span class="math notranslate nohighlight">\(A\)</span> dan <span class="math notranslate nohighlight">\(B\)</span> adalah <span class="math notranslate nohighlight">\(∆V_{AB}\)</span> dimana</p>
+<div class="math notranslate nohighlight">
+\[∆V_{AB} =  \frac{∆U_{AB}}{q} = - \int_{A}^{B} \mathbf{E} \cdot d\boldsymbol{l}\]</div>
+<p><span class="math notranslate nohighlight">\(∆V_{AB}\)</span> juga adalah jalur independen, dan tidak bergantung pada <span class="math notranslate nohighlight">\(q\)</span> dengan satuan SI
+<span class="math notranslate nohighlight">\(JC^{−1}\)</span>. Dengan memilih <span class="math notranslate nohighlight">\(V = 0\)</span> selagi <span class="math notranslate nohighlight">\(r \rightarrow \infty\)</span>, kita mendefinisikan potensial listrik, <span class="math notranslate nohighlight">\(V\)</span>, pada <span class="math notranslate nohighlight">\(P\)</span> sebagai usaha eksternal yang diperlukan untuk membawa sebuah muatan sebesar <span class="math notranslate nohighlight">\(+1 C\)</span> pada kecepatan konstan dari <span class="math notranslate nohighlight">\(r = ∞ \,(V = 0)\)</span> ke <span class="math notranslate nohighlight">\(P\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[ V = - \int_{\infty}^{P} \mathbf{E} \cdot d\boldsymbol{l}\]</div>
+<p>Fakta kunci tentang <span class="math notranslate nohighlight">\(V\)</span>: ia merupakan energi potensial / unit muatan positif; ia merupakan suatu medan skalar; serta prinsip superposisi berlaku. Tanpa diterapkan gaya eksternal, muatan positif bergerak ke potensial lebih rendah dan muatan negatif bergerak ke potensial lebih tinggi. Untuk sebuah muatan titik <span class="math notranslate nohighlight">\(Q\)</span>, potensial <span class="math notranslate nohighlight">\(V\)</span> pada <span class="math notranslate nohighlight">\(r\)</span> dari <span class="math notranslate nohighlight">\(Q\)</span> adalah:</p>
+<div class="math notranslate nohighlight">
+\[V = \frac{Q}{4{\pi}{\epsilon_0}r}\]</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="content.html" title="previous page">Daftar Isi</a>
+    <a class='right-next' id="next-link" href="magnet.html" title="next page">Magnet</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Imamul Muttakin<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
